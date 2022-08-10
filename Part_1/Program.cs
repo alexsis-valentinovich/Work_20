@@ -24,10 +24,8 @@ namespace Part_1
         {
             return Math.PI * Math.Pow(2, r);
         }
-        static double volume(double r)
-        {
-            return 4 / 3 * Math.PI * Math.Pow(3, r);
-        }
+        static double volume(double r) => 4 / 3 * Math.PI * Math.Pow(3, r);
+
         static void Main(string[] args)
         {
             Console.WriteLine("Введите радиус геометрической фигуры");
